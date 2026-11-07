@@ -1,0 +1,590 @@
+{
+  "format": 1,
+  "title": {
+    "en": "My DSH Plugins",
+    "zh-cn": "我的 DSH 插件索引"
+  },
+  "description": {
+    "en": "Personal plugin index: bundles verified on a live DSH 0.2.2 profile.",
+    "zh-cn": "个人插件索引：均在本机 DSH 0.2.2 profile 上实际运行验证过的组合包。"
+  },
+  "metadata": {
+    "categories": {
+      "core": {
+        "title": {
+          "en": "Core",
+          "zh-cn": "核心能力"
+        }
+      },
+      "guard": {
+        "title": {
+          "en": "Guards",
+          "zh-cn": "安全护栏"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "UI",
+          "zh-cn": "界面增强"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh-cn": "工具扩展"
+        }
+      }
+    },
+    "labels": {
+      "verified": {
+        "title": {
+          "en": "Verified",
+          "zh-cn": "已验证"
+        }
+      },
+      "windows-only": {
+        "title": {
+          "en": "Windows only",
+          "zh-cn": "仅 Windows"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "Stars",
+          "zh-cn": "收藏数"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@dightendless/dsh-bridge-browser",
+      "title": {
+        "en": "@dightendless/dsh-bridge-browser",
+        "zh-cn": "@dightendless/dsh-bridge-browser"
+      },
+      "versions": [
+        {
+          "version": "0.3.6",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "tools",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "Operate the Chrome or Edge tab you are already in, through the unpacked extension: hover, coordinate clicks, drag, batched actions, whole-page screenshots, file upload, image addresses and switching between connected browsers — with approval-gated actions and masked sensitive fields.",
+        "zh-cn": "Operate the Chrome or Edge tab you are already in, through the unpacked extension: hover, coordinate clicks, drag, batched actions, whole-page screenshots, file upload, image addresses and switching between connected browsers — with approval-gated actions and masked sensitive fields."
+      },
+      "author": "DightEndless",
+      "repository": {
+        "url": "https://github.com/DightEndless/dsh-browser"
+      }
+    },
+    {
+      "name": "@jayyuen66/dsh-danger-guard",
+      "title": {
+        "en": "@jayyuen66/dsh-danger-guard",
+        "zh-cn": "@jayyuen66/dsh-danger-guard"
+      },
+      "versions": [
+        {
+          "version": "0.1.11",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.1-rc.3"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "guard",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "dsh 插件：危险命令物理拦截（git --no-verify / rm -rf / curl|sh / dev server）+ 首次编辑事实强制门（gateguard 移植，ECC MIT）",
+        "zh-cn": "dsh 插件：危险命令物理拦截（git --no-verify / rm -rf / curl|sh / dev server）+ 首次编辑事实强制门（gateguard 移植，ECC MIT）"
+      },
+      "author": "JayYuen",
+      "repository": {
+        "url": "https://github.com/JayYuen666/dsh-danger-guard"
+      }
+    },
+    {
+      "name": "dsh-context",
+      "title": {
+        "en": "dsh-context",
+        "zh-cn": "dsh-context"
+      },
+      "versions": [
+        {
+          "version": "0.82.0",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2 || >=0.2.2-rc.1"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "ui",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves.",
+        "zh-cn": "A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves."
+      },
+      "author": "bowenliang123",
+      "repository": {
+        "url": "https://github.com/bowenliang123/dsh-context"
+      }
+    },
+    {
+      "name": "dsh-image-gen",
+      "title": {
+        "en": "dsh-image-gen",
+        "zh-cn": "dsh-image-gen"
+      },
+      "versions": [
+        {
+          "version": "0.10.3",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "ui",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "Bring ChatGPT-like image generation to DeepSeek Harness — Gemini, OpenAI, Seedream, DashScope, local ComfyUI & more.",
+        "zh-cn": "Bring ChatGPT-like image generation to DeepSeek Harness — Gemini, OpenAI, Seedream, DashScope, local ComfyUI & more."
+      },
+      "author": "shanliuling",
+      "repository": {
+        "url": "https://github.com/shanliuling/dsh-image-gen"
+      }
+    },
+    {
+      "name": "@jayyuen66/dsh-lesson-loop",
+      "title": {
+        "en": "@jayyuen66/dsh-lesson-loop",
+        "zh-cn": "@jayyuen66/dsh-lesson-loop"
+      },
+      "versions": [
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.1-rc.3"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "guard",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "Self-evolution lesson loop for dsh: unified lesson bus (danger-guard / quality-gate / session-rescue reporters) + rule cards with human-confirmed promotion, violation/suppressed measurement, and decay. Host half provides the 'lessonLoop' service; client half renders the review card.",
+        "zh-cn": "Self-evolution lesson loop for dsh: unified lesson bus (danger-guard / quality-gate / session-rescue reporters) + rule cards with human-confirmed promotion, violation/suppressed measurement, and decay. Host half provides the 'lessonLoop' service; client half renders the review card."
+      },
+      "author": "JayYuen",
+      "repository": {
+        "url": "https://github.com/JayYuen666/dsh-lesson-loop"
+      }
+    },
+    {
+      "name": "@jayyuen66/dsh-session-rescue",
+      "title": {
+        "en": "@jayyuen66/dsh-session-rescue",
+        "zh-cn": "@jayyuen66/dsh-session-rescue"
+      },
+      "versions": [
+        {
+          "version": "0.1.6",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.1-rc.3"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "guard",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "Session rescue for dsh web: auto-resume on transient model failures, max-tokens continuation and unclosed-todo catch-up (host), plus edit-resend / retry / queue-withdraw / stop-and-reask / settings card (client).",
+        "zh-cn": "Session rescue for dsh web: auto-resume on transient model failures, max-tokens continuation and unclosed-todo catch-up (host), plus edit-resend / retry / queue-withdraw / stop-and-reask / settings card (client)."
+      },
+      "author": "JayYuen",
+      "repository": {
+        "url": "https://github.com/JayYuen666/dsh-session-rescue"
+      }
+    },
+    {
+      "name": "@zfdx123/dsh-session-cleaner",
+      "title": {
+        "en": "@zfdx123/dsh-session-cleaner",
+        "zh-cn": "@zfdx123/dsh-session-cleaner"
+      },
+      "versions": [
+        {
+          "version": "1.0.16",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-alpha.2"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "guard",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "会话清理：在运行中的 web 运行时里彻底删除 DSH 会话——实时 store 条目、工作区记录、磁盘产物与投影缓存行一并清掉，并在会话行菜单里加一个删除入口。",
+        "zh-cn": "会话清理：在运行中的 web 运行时里彻底删除 DSH 会话——实时 store 条目、工作区记录、磁盘产物与投影缓存行一并清掉，并在会话行菜单里加一个删除入口。"
+      },
+      "repository": {
+        "url": "https://github.com/zfdx123/dsh-atelier"
+      }
+    },
+    {
+      "name": "dsh-rotakit",
+      "title": {
+        "en": "dsh-rotakit",
+        "zh-cn": "dsh-rotakit"
+      },
+      "versions": [
+        {
+          "version": "2.4.2",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "core",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "Merge every locally signed-in WorkBuddy account into DeepSeek Harness as one auto-failing-over model pool, serving OpenAI Chat, OpenAI Responses and Anthropic Messages from the same pool (multi-account rotation, live credits, daily check-in and model catalog).",
+        "zh-cn": "Merge every locally signed-in WorkBuddy account into DeepSeek Harness as one auto-failing-over model pool, serving OpenAI Chat, OpenAI Responses and Anthropic Messages from the same pool (multi-account rotation, live credits, daily check-in and model catalog)."
+      },
+      "author": "XDTrees (upstream); adapted by 2861292267",
+      "repository": {
+        "url": "https://github.com/2861292267/DSH-Official-WorkBuddy-Credit-Proxy"
+      }
+    },
+    {
+      "name": "dsh-purge-switch",
+      "title": {
+        "en": "dsh-purge-switch",
+        "zh-cn": "dsh-purge-switch"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "core",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "Toggle dsh-purge prompt injection from the DSH settings page.",
+        "zh-cn": "Toggle dsh-purge prompt injection from the DSH settings page."
+      }
+    },
+    {
+      "name": "dsh-notify-me",
+      "title": {
+        "en": "dsh-notify-me",
+        "zh-cn": "dsh-notify-me"
+      },
+      "versions": [
+        {
+          "version": "1.17.0",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "ui",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "离开 DSH 页面也能收到提醒：需要你操作 / 后台回复完成时发系统通知、标题标记与提示音，支持审批快捷裁决与外部推送，Web 版与桌面版均可用。",
+        "zh-cn": "离开 DSH 页面也能收到提醒：需要你操作 / 后台回复完成时发系统通知、标题标记与提示音，支持审批快捷裁决与外部推送，Web 版与桌面版均可用。"
+      },
+      "author": "chromoany",
+      "repository": {
+        "url": "https://github.com/chromoany/dsh-notify-me"
+      }
+    },
+    {
+      "name": "dsh-plugin-guide",
+      "title": {
+        "en": "dsh-plugin-guide",
+        "zh-cn": "dsh-plugin-guide"
+      },
+      "versions": [
+        {
+          "version": "0.4.5",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-0 <0.3.0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "ui",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "A practical guide to DSH plugin quality: ENTRY checks, FLOW checks, and BOOST guidance. Community guide; not official, not a certification, not a ranking.",
+        "zh-cn": "A practical guide to DSH plugin quality: ENTRY checks, FLOW checks, and BOOST guidance. Community guide; not official, not a certification, not a ranking."
+      },
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-plugin-guide"
+      }
+    },
+    {
+      "name": "@liustack/modsearch",
+      "title": {
+        "en": "@liustack/modsearch",
+        "zh-cn": "@liustack/modsearch"
+      },
+      "versions": [
+        {
+          "version": "5.10.11",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "tools",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "The strongest free web search plugin for coding agents. Plug-in web search, X search, and page fetch for models without native web access. Free out of the box: no signup, no API key (Firecrawl keyless, 1,000 free credits/month)",
+        "zh-cn": "The strongest free web search plugin for coding agents. Plug-in web search, X search, and page fetch for models without native web access. Free out of the box: no signup, no API key (Firecrawl keyless, 1,000 free credits/month)"
+      },
+      "author": "Leon Liu",
+      "repository": {
+        "url": "https://github.com/liustack/modsearch"
+      }
+    },
+    {
+      "name": "dsh-memory-evolve",
+      "title": {
+        "en": "dsh-memory-evolve",
+        "zh-cn": "dsh-memory-evolve"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "tools",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "为 DeepSeek Harness 带来分层记忆（全局 / 用户 / 项目 / GIT 分支 / 每日）与自我进化（经验沉淀 + 技能自动创建）和技能管理、待办管理、CLI 调度（kimi/codex/grok/hermes 等外部 AI 统一调度）、临时信息便签，带 WebUI 管理界面。Hermes-style long-term memory, self-evolution, skills, todos and external CLI agent dispatch for DeepSeek Harness.",
+        "zh-cn": "为 DeepSeek Harness 带来分层记忆（全局 / 用户 / 项目 / GIT 分支 / 每日）与自我进化（经验沉淀 + 技能自动创建）和技能管理、待办管理、CLI 调度（kimi/codex/grok/hermes 等外部 AI 统一调度）、临时信息便签，带 WebUI 管理界面。Hermes-style long-term memory, self-evolution, skills, todos and external CLI agent dispatch for DeepSeek Harness."
+      }
+    },
+    {
+      "name": "@jayyuen66/dsh-quality-gate",
+      "title": {
+        "en": "@jayyuen66/dsh-quality-gate",
+        "zh-cn": "@jayyuen66/dsh-quality-gate"
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.1-rc.3"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "guard",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "dsh 插件：回合收口质量门禁（在 agent/turn-stopping 按项目形态跑 pnpm check / cargo check / ruff check / tsc，未过则注入修复指令开新轮）",
+        "zh-cn": "dsh 插件：回合收口质量门禁（在 agent/turn-stopping 按项目形态跑 pnpm check / cargo check / ruff check / tsc，未过则注入修复指令开新轮）"
+      },
+      "author": "JayYuen",
+      "repository": {
+        "url": "https://github.com/JayYuen666/dsh-quality-gate"
+      }
+    },
+    {
+      "name": "dsh-purge",
+      "title": {
+        "en": "dsh-purge",
+        "zh-cn": "dsh-purge"
+      },
+      "versions": [
+        {
+          "version": "1.1.90",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "core",
+        "keywords": [],
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+        "zh-cn": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
+      },
+      "repository": {
+        "url": "https://github.com/YuJunZhiXue/dsh-purge"
+      }
+    },
+    {
+      "name": "@copylee/dsh-computer-use",
+      "title": {
+        "en": "@copylee/dsh-computer-use",
+        "zh-cn": "@copylee/dsh-computer-use"
+      },
+      "versions": [
+        {
+          "version": "0.8.2",
+          "publishTimestamp": 1794030591,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "tools",
+        "keywords": [],
+        "labels": [
+          "verified",
+          "windows-only"
+        ],
+        "sortKeys": {}
+      },
+      "description": {
+        "en": "DeepSeek Harness Computer Use 插件（Windows）：让 AI 看屏幕、点鼠标、敲键盘操控电脑；控制时屏幕泛起橙色光晕并显示“DeepSeek Harness 正在操控你的电脑”，按 Esc 暂停 / 继续。",
+        "zh-cn": "DeepSeek Harness Computer Use 插件（Windows）：让 AI 看屏幕、点鼠标、敲键盘操控电脑；控制时屏幕泛起橙色光晕并显示“DeepSeek Harness 正在操控你的电脑”，按 Esc 暂停 / 继续。"
+      },
+      "author": "copylee",
+      "repository": {
+        "url": "https://github.com/copylee711/dsh-computer-use"
+      }
+    }
+  ]
+}
