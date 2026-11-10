@@ -68,8 +68,8 @@
       },
       "versions": [
         {
-          "version": "0.3.6",
-          "publishTimestamp": 1794137715,
+          "version": "1.0.0",
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -84,12 +84,8 @@
         "sortKeys": {}
       },
       "description": {
-        "en": "Operate the Chrome or Edge tab you are already in, through the unpacked extension: hover, coordinate clicks, drag, batched actions, whole-page screenshots, file upload, image addresses and switching between connected browsers — with approval-gated actions and masked sensitive fields.",
-        "zh-cn": "Operate the Chrome or Edge tab you are already in, through the unpacked extension: hover, coordinate clicks, drag, batched actions, whole-page screenshots, file upload, image addresses and switching between connected browsers — with approval-gated actions and masked sensitive fields."
-      },
-      "author": "DightEndless",
-      "repository": {
-        "url": "https://github.com/DightEndless/dsh-browser"
+        "en": "Enhanced DSH browser bridge: auto-route (lastActive-first), tab reuse, tool hints. Based on @dightendless/dsh-bridge-browser.",
+        "zh-cn": "Enhanced DSH browser bridge: auto-route (lastActive-first), tab reuse, tool hints. Based on @dightendless/dsh-bridge-browser."
       }
     },
     {
@@ -101,7 +97,7 @@
       "versions": [
         {
           "version": "0.1.11",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -136,7 +132,7 @@
       "versions": [
         {
           "version": "0.82.0",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -171,7 +167,7 @@
       "versions": [
         {
           "version": "0.10.3",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -203,7 +199,7 @@
       "versions": [
         {
           "version": "0.1.8",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -238,7 +234,7 @@
       "versions": [
         {
           "version": "0.1.6",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -273,7 +269,7 @@
       "versions": [
         {
           "version": "1.0.16",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -307,7 +303,7 @@
       "versions": [
         {
           "version": "2.4.2",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -322,8 +318,8 @@
         "sortKeys": {}
       },
       "description": {
-        "en": "Merge every locally signed-in WorkBuddy account into DeepSeek Harness as one auto-failing-over model pool, serving OpenAI Chat, OpenAI Responses and Anthropic Messages from the same pool (multi-account rotation, live credits, daily check-in and model catalog).",
-        "zh-cn": "Merge every locally signed-in WorkBuddy account into DeepSeek Harness as one auto-failing-over model pool, serving OpenAI Chat, OpenAI Responses and Anthropic Messages from the same pool (multi-account rotation, live credits, daily check-in and model catalog)."
+        "en": "Enhanced DSH rotakit: rate limiting, cooldown caps, channel dedup, model sync. Based on 2861292267/DSH-Official-WorkBuddy-Credit-Proxy.",
+        "zh-cn": "Enhanced DSH rotakit: rate limiting, cooldown caps, channel dedup, model sync. Based on 2861292267/DSH-Official-WorkBuddy-Credit-Proxy."
       },
       "author": "XDTrees (upstream); adapted by 2861292267",
       "repository": {
@@ -339,7 +335,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -367,7 +363,7 @@
       "versions": [
         {
           "version": "1.17.0",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -399,7 +395,7 @@
       "versions": [
         {
           "version": "0.4.5",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -433,7 +429,7 @@
       "versions": [
         {
           "version": "5.10.11",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -465,7 +461,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -493,7 +489,7 @@
       "versions": [
         {
           "version": "0.1.5",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -527,8 +523,8 @@
       },
       "versions": [
         {
-          "version": "1.1.90",
-          "publishTimestamp": 1794137715,
+          "version": "1.2.3",
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -547,7 +543,7 @@
         "zh-cn": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
       },
       "repository": {
-        "url": "https://github.com/YuJunZhiXue/dsh-purge"
+        "url": "https://github.com/realMisakaMikoto/dsh-purge"
       }
     },
     {
@@ -558,8 +554,8 @@
       },
       "versions": [
         {
-          "version": "0.8.2",
-          "publishTimestamp": 1794137715,
+          "version": "0.8.3",
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
@@ -578,8 +574,8 @@
         "sortKeys": {}
       },
       "description": {
-        "en": "DeepSeek Harness Computer Use 插件（Windows）：让 AI 看屏幕、点鼠标、敲键盘操控电脑；控制时屏幕泛起橙色光晕并显示“DeepSeek Harness 正在操控你的电脑”，按 Esc 暂停 / 继续。",
-        "zh-cn": "DeepSeek Harness Computer Use 插件（Windows）：让 AI 看屏幕、点鼠标、敲键盘操控电脑；控制时屏幕泛起橙色光晕并显示“DeepSeek Harness 正在操控你的电脑”，按 Esc 暂停 / 继续。"
+        "en": "Enhanced DSH computer use: tool hints for browser vs desktop. Based on @copylee/dsh-computer-use.",
+        "zh-cn": "Enhanced DSH computer use: tool hints for browser vs desktop. Based on @copylee/dsh-computer-use."
       },
       "author": "copylee",
       "repository": {
@@ -595,7 +591,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           }
@@ -627,7 +623,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794137715,
+          "publishTimestamp": 1794300443,
           "source": {
             "type": "npm"
           },
